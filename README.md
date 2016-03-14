@@ -7,6 +7,7 @@ The .config file was copied from /proc/config.gz on a system running a kernel co
 The BSPv1.1.0/x86_64-linux.tar.gz archive contains binaries for crosscompilation on Ubuntu 14 x64. This is a stripped down version of meta-clanton build environment.  
   
 To build the kernel. ( Below YOUR-DIR stands for a full path to a working directory on your machine, i.e. /work/mykernel )  
+  
 $ mkdir YOUR-DIR  
 $ cd YOUR-DIR  
 $ git clone https://github.com/slavaim/Linux-Intel-Galileo-Gen2-QuarkX1000  
