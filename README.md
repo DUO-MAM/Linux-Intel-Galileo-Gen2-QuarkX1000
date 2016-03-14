@@ -14,7 +14,7 @@ $ git clone https://github.com/slavaim/Linux-Intel-Galileo-Gen2-QuarkX1000
 $ cd Linux-Intel-Galileo-Gen2-QuarkX1000/BSPv1.1.0  
 $ tar zxf x86_64-linux.tar.gz  
 $ cd x86_64-linux/work  
-$ export PATH=YOUR-DIR/Linux-Intel-Galileo-Gen2-QuarkX1000/BSPv1.1.0/x86_64-linux/usr/bin/i586-poky-linux:$PATH 
+$ export PATH=YOUR-DIR/Linux-Intel-Galileo-Gen2-QuarkX1000/BSPv1.1.0/x86_64-linux/usr/bin/i586-poky-linux:$PATH  
 $ ARCH=i386 CROSS_COMPILE=i586-poky-linux- make  
   
 The built kernel is x86_64-linux/work/arch/x86/boot/bzImage  
