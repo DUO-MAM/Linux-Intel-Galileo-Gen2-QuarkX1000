@@ -4,7 +4,7 @@ Contains a Linux 3.8.7 source code with all patches for Intel Galileo Gen2 ( Qua
   
 The .config file was copied from /proc/config.gz on a system running a kernel compiled by Intel. The kernel is compiled with symbol information to facilitate debugging.  
   
-The BSPv1.1.0/x86_64-linux.tar.gz archive contains cross-compiler for Ubuntu 14 x64. This is a stripped down version of meta-clanton build environment.  
+The BSPv1.1.0/x86_64-linux.tar.gz archive contains a cross-compiler for Ubuntu 14 x64. This is a stripped down version of meta-clanton build environment.  
   
 To build the kernel. ( Below YOUR-DIR stands for a full path to a working directory on your machine, i.e. /work/mykernel )  
   
