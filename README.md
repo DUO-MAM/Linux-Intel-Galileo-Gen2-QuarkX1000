@@ -17,4 +17,6 @@ $ cd linux_v3.8.7/work
 $ export PATH=YOUR-DIR/Linux-Intel-Galileo-Gen2-QuarkX1000/BSPv1.1.0/x86_64-linux/usr/bin/i586-poky-linux:$PATH  
 $ ARCH=i386 CROSS_COMPILE=i586-poky-linux- make  
   
-The built kernel is BSPv1.1.0/linux_v3.8.7/work/arch/x86/boot/bzImage  
+The built kernel is BSPv1.1.0/linux_v3.8.7/work/arch/x86/boot/bzImage 
+
+If you want to build the tools and kernel from scratch the instructions can be found here http://slavaim.blogspot.com.au/2016/03/building-linux-kernel-for-intel-galileo.html 
